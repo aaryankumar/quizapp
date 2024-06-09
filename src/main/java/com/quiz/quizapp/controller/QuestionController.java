@@ -19,7 +19,6 @@ public class QuestionController {
     QuestionService questionService;
 
 
-
 //    public List<Question> getAllQuestions(){
 //        return questionService.getAllQuestions();
 //    }
