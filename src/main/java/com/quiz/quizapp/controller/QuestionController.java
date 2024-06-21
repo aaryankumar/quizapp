@@ -1,9 +1,8 @@
 package com.quiz.quizapp.controller;
 
-import com.quiz.quizapp.Question;
+import com.quiz.quizapp.model.Question;
 import com.quiz.quizapp.service.QuestionService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -17,7 +16,6 @@ public class QuestionController {
 
     @Autowired
     QuestionService questionService;
-
 
 
 //    public List<Question> getAllQuestions(){
